@@ -13,10 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{17765546-748c-454f-9c34-bddfd60df546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataLayer">
+      <UniqueIdentifier>{44fa33eb-c9d2-4bd3-b0f8-27fbb38dda1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataLayer\FileDataLayer">
+      <UniqueIdentifier>{72421590-dd5c-44ad-ab14-c4ab360f8fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DomainLayer">
+      <UniqueIdentifier>{d1da1333-d05a-4e3c-b3e4-ebba0ae8141e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{d4a5ed23-e496-4c8a-93f1-7445b22e8cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ApplicationLayer">
+      <UniqueIdentifier>{2020c0df-5c27-4086-9fdc-6b605589ad2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ApplicationLayer\Console">
+      <UniqueIdentifier>{a903ef74-3e6b-4913-a567-dfb3396b2b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ApplicationLayer\Console\Commands">
+      <UniqueIdentifier>{b1d9a729-90f3-4b24-b532-bb7897cc4a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DomainLayer\Managers">
+      <UniqueIdentifier>{f623b32a-55f9-4d79-bce8-e593dd8adccf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TicketLabCLI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attendee.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderTicket.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketRepository.h">
+      <Filter>Header Files\DataLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTicketRepository.h">
+      <Filter>Header Files\DataLayer\FileDataLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRepositoryBase.h">
+      <Filter>Header Files\DataLayer\FileDataLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Header Files\ApplicationLayer\Console\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpCommand.h">
+      <Filter>Header Files\ApplicationLayer\Console\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTicketCommand.h">
+      <Filter>Header Files\ApplicationLayer\Console\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandInitializer.h">
+      <Filter>Header Files\ApplicationLayer\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowTicketsCommand.h">
+      <Filter>Header Files\ApplicationLayer\Console\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleApp.h">
+      <Filter>Header Files\ApplicationLayer\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketManager.h">
+      <Filter>Header Files\DomainLayer\Managers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

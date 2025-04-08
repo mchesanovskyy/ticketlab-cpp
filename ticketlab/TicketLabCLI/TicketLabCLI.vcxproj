@@ -129,6 +129,22 @@
   <ItemGroup>
     <ClCompile Include="TicketLabCLI.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attendee.h" />
+    <ClInclude Include="CommandInitializer.h" />
+    <ClInclude Include="ConsoleApp.h" />
+    <ClInclude Include="CreateTicketCommand.h" />
+    <ClInclude Include="FileRepositoryBase.h" />
+    <ClInclude Include="FileTicketRepository.h" />
+    <ClInclude Include="HelpCommand.h" />
+    <ClInclude Include="ICommand.h" />
+    <ClInclude Include="OrderTicket.h" />
+    <ClInclude Include="ShowTicketsCommand.h" />
+    <ClInclude Include="StringHelper.h" />
+    <ClInclude Include="Ticket.h" />
+    <ClInclude Include="TicketManager.h" />
+    <ClInclude Include="TicketRepository.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
