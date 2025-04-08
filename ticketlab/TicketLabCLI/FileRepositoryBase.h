@@ -1,4 +1,5 @@
 #pragma once
+#include <fstream>
 #include <string>
 #include <vector>
 
@@ -26,7 +27,7 @@ protected:
 	/// Constructor. 	
 	/// Initializes the repository with the specified file name.
 	/// </summary>
-	FileRepositoryBase(string fileName) : _fileName(fileName) 
+	FileRepositoryBase(const string& fileName) : _fileName(fileName) 
 	{
 	}
 
