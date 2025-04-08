@@ -31,3 +31,4 @@
 *.out
 *.app
 /ticketlab/.vs
+/ticketlab/TicketLabCLI/x64
